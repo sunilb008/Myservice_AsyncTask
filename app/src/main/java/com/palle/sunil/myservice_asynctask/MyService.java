@@ -66,8 +66,11 @@ public class MyService extends Service {
     }
 
     @Override
-    public void onDestroy() {
+    public void onDestroy()
+    {
+        Log.d("B37","On--destory1");
         super.onDestroy();
+        Log.d("B37","On--destory2");
     }
 
 
